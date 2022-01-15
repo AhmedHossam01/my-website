@@ -4,7 +4,19 @@ module.exports = {
     title: "Ahmed Hossam's Website",
   },
   plugins: [
-    "gatsby-plugin-mdx",
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -13,7 +25,15 @@ module.exports = {
       },
     },
     "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          // placeholder: "blurred",
+        },
+      },
+    },
     "gatsby-transformer-sharp",
+    "gatsby-remark-images",
   ],
 };
