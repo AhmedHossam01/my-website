@@ -5,7 +5,11 @@ import Layout from "../components/Layout";
 const IndexPage = ({ data }) => {
   console.log(data);
 
-  return <Layout>hello world!</Layout>;
+  return (
+    <Layout>
+      <p className="bg-red-500">Hello World</p>
+    </Layout>
+  );
 };
 
 export const query = graphql`
