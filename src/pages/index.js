@@ -1,24 +1,11 @@
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import * as React from "react";
 import Layout from "../components/Layout";
 
 const IndexPage = ({ data }) => {
   console.log(data);
 
-  return (
-    <div>
-      <Layout>
-        {data.allMdx.nodes.map((node) => (
-          <article key={node.id}>
-            <h2>
-              <Link to={`/blog/${node.slug}`}>{node.frontmatter.title}</Link>
-            </h2>
-            <p>Posted: {node.frontmatter.date}</p>
-          </article>
-        ))}
-      </Layout>
-    </div>
-  );
+  return <Layout>hello world!</Layout>;
 };
 
 export const query = graphql`

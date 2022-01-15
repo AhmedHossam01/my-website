@@ -35,5 +35,6 @@ module.exports = {
     },
     "gatsby-transformer-sharp",
     "gatsby-remark-images",
+    "gatsby-plugin-postcss",
   ],
 };
