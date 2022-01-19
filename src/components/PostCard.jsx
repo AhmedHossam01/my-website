@@ -25,7 +25,7 @@ const PostCard = ({ post }) => {
       </div>
 
       <Link
-        className="w-[fit-content] group-hover:px-2 rounded-md group-hover:ml-2 group-hover:shadow-sm group-hover:bg-white font-semibold text-slate-700 duration-200 group-hover:text-fuchsia-600"
+        className="w-[fit-content] group-hover:px-2 rounded-md group-hover:ml-2 group-hover:shadow-sm font-semibold text-slate-700 duration-200 group-hover:text-white group-hover:bg-blue-400"
         to={`blog/${post.slug}`}
       >
         Read more →
