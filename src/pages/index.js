@@ -9,8 +9,10 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout pageTitle="Home Page">
-      <div className="container mt-12">
-        <Info />
+      <div className="bg-sky-50 text-slate-700 py-20">
+        <div className="container">
+          <Info />
+        </div>
       </div>
 
       <div className="grid md:grid-cols-3 gap-12 mt-16 container mb-12">
