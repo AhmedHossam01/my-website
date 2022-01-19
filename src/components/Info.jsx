@@ -17,7 +17,11 @@ const Info = () => {
 
           <ul className="mt-4 flex gap-4">
             <li>
-              <a href="" target="_blank">
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   class="w-6 h-6 text-blue-300 fill-current hover:text-blue-700 transition-all"
                   xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +33,11 @@ const Info = () => {
             </li>
 
             <li>
-              <a href="" target="_blank">
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   class="w-6 h-6 text-blue-500 fill-current hover:text-blue-700 transition-all"
                   xmlns="http://www.w3.org/2000/svg"
