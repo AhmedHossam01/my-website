@@ -10,14 +10,14 @@ const BlogPost = ({ data }) => {
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
       <article
-        className="px-4 py-24 mx-auto max-w-7xl"
+        className="px-4 py-20 mx-auto max-w-7xl"
         itemScope
         itemType="http://schema.org/BlogPosting"
       >
         <div className="w-full mx-auto mb-10 text-left md:w-3/4 lg:w-1/2">
           <div className="pb-6 mb-6 border-b border-gray-200">
             <h1
-              className="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl"
+              className="mb-3 text-3xl font-bold text-gray-900 dark:text-slate-100 md:leading-tight md:text-4xl"
               itemProp="headline"
               title={data.mdx.frontmatter.title}
             >
@@ -34,7 +34,7 @@ const BlogPost = ({ data }) => {
           />
         </div>
 
-        <div className="w-full mx-auto prose md:w-3/4 lg:w-1/2">
+        <div className="w-full mx-auto prose dark:prose-invert md:w-3/4 lg:w-1/2">
           <MDXRenderer>{data.mdx.body}</MDXRenderer>
         </div>
       </article>

@@ -5,9 +5,11 @@ const Info = () => {
     <div className="flex gap-4 justify-center flex-col lg:flex-row">
       <div className="text-5xl">👋</div>
 
-      <div className="lg:w-2/3">
-        <h1 className="text-5xl text-black font-bold">Hi, I'm Ahmed Hossam</h1>
-        <p className="mt-2">
+      <div>
+        <h1 className="text-5xl text-black font-bold dark:text-white">
+          Hi, I'm Ahmed Hossam
+        </h1>
+        <p className="mt-2 text-slate-700 dark:text-slate-300">
           Welcome to my humble blog. Here I mostly blog about my projects, stuff
           I discover, books I read, or technical problems/issues I've solved.
           This was intented to be a portfolio, but I'm too excited to start

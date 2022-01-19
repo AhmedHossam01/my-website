@@ -9,13 +9,13 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout pageTitle="Home Page">
-      <div className="bg-sky-50 text-slate-700 py-20">
+      <div className="bg-sky-50 py-28 dark:bg-slate-900">
         <div className="container">
           <Info />
         </div>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-12 mt-16 container mb-12">
+      <div className="grid md:grid-cols-3 gap-12 container py-16">
         {data.allMdx.nodes.map((node) => (
           <PostCard post={node} />
         ))}
