@@ -9,12 +9,35 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <p>{data.mdx.frontmatter.date}</p>
-      <GatsbyImage
-        image={heroImage}
-        alt={data.mdx.frontmatter.hero_image_alt}
-      />
-      <MDXRenderer>{data.mdx.body}</MDXRenderer>
+      <article
+        className="px-4 py-24 mx-auto max-w-7xl"
+        itemScope
+        itemType="http://schema.org/BlogPosting"
+      >
+        <div className="w-full mx-auto mb-10 text-left md:w-3/4 lg:w-1/2">
+          <div className="pb-6 mb-6 border-b border-gray-200">
+            <h1
+              className="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl"
+              itemProp="headline"
+              title={data.mdx.frontmatter.title}
+            >
+              {data.mdx.frontmatter.title}
+            </h1>
+            <p className="text-base text-gray-500">
+              {data.mdx.frontmatter.date} — Written by Ahmed Hossam
+            </p>
+          </div>
+          <GatsbyImage
+            image={heroImage}
+            alt={data.mdx.frontmatter.hero_image_alt}
+            className="object-cover w-full h-64 bg-center rounded"
+          />
+        </div>
+
+        <div className="w-full mx-auto prose md:w-3/4 lg:w-1/2">
+          <MDXRenderer>{data.mdx.body}</MDXRenderer>
+        </div>
+      </article>
     </Layout>
   );
 };
