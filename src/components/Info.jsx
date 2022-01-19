@@ -6,11 +6,11 @@ const Info = () => {
       <div className="text-5xl">👋</div>
 
       <div className="lg:w-2/3">
-        <h1 className="text-5xl">Hi, I'm Ahmed Hossam</h1>
+        <h1 className="text-5xl text-black font-bold">Hi, I'm Ahmed Hossam</h1>
         <p className="mt-2">
           Welcome to my humble blog. Here I mostly blog about my projects, stuff
           I discover, books I read, or technical problems/issues I've solved.
-          This was intented to be a portfolio, but I'm to excited to start
+          This was intented to be a portfolio, but I'm too excited to start
           blogging so I made the blog until the portfolio is complete.
         </p>
 
