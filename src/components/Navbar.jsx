@@ -60,7 +60,10 @@ const Navbar = ({ setIsDark, isDark }) => {
           </a>
         </button>
 
-        <button className="ml-4" onClick={isDark ? setLight : setDark}>
+        <button
+          className="mt-4 md:mt-0 md:ml-4"
+          onClick={isDark ? setLight : setDark}
+        >
           {isDark ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
