@@ -22,8 +22,7 @@ const PostCard = ({ post }) => {
           <Link to={`blog/${post.slug}`}>{post.frontmatter.title}</Link>
         </h2>
         <p className="text-gray-600 mt-2 dark:text-slate-400">
-          The difference between them is, the box-shadow property creates a
-          rectangular shadow behind an element's entire box.
+          {post.frontmatter.excrept}
         </p>
       </div>
 

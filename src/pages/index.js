@@ -7,7 +7,7 @@ import Info from "../components/Info";
 const IndexPage = ({ data }) => {
   return (
     <Layout pageTitle="Home Page">
-      <div className="bg-sky-50 py-28 dark:bg-slate-900">
+      <div className="bg-sky-50 lg:py-28 pt-16 dark:bg-slate-900">
         <div className="container">
           <Info />
         </div>
@@ -29,6 +29,7 @@ export const query = graphql`
         frontmatter {
           date(formatString: "MMMM D, YYYY")
           title
+          excrept
           hero_image {
             childImageSharp {
               gatsbyImageData(width: 600)
