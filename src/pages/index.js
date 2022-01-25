@@ -6,7 +6,7 @@ import Info from "../components/Info";
 
 const IndexPage = ({ data }) => {
   return (
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Home Page - Ahmed Hossam">
       <div className="bg-sky-50 lg:py-28 pt-16 dark:bg-slate-900">
         <div className="container">
           <Info />
