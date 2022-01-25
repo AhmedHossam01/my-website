@@ -7,6 +7,21 @@
   Gatsby minimal starter
 </h1>
 
+```javascript
+const data = Array.from(document.querySelectorAll("#channel")).map(
+  (channel) => {
+    return {
+      imageUrl: channel.querySelector("img").src,
+      channelName: channel.querySelector("#title").textContent,
+      link: channel.querySelector("a").href,
+      featured: false,
+    };
+  }
+);
+
+console.log(JSON.stringify(data));
+```
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**

@@ -24,6 +24,20 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-plugin-remote-images`,
+      options: {
+        nodeType: "ChannelsJson",
+        imagePath: "imageUrl",
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/data`,
+      },
+    },
     "gatsby-plugin-image",
     {
       resolve: `gatsby-plugin-sharp`,
