@@ -5,8 +5,6 @@ import PostCard from "../components/PostCard";
 import Info from "../components/Info";
 
 const IndexPage = ({ data }) => {
-  console.log(data);
-
   return (
     <Layout pageTitle="Home Page">
       <div className="bg-sky-50 py-28 dark:bg-slate-900">

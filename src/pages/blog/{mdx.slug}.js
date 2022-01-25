@@ -34,7 +34,7 @@ const BlogPost = ({ data }) => {
           />
         </div>
 
-        <div className="w-full mx-auto prose dark:prose-invert md:w-3/4 lg:w-1/2 prose-img:rounded-xl prose-a:text-blue-600">
+        <div className="w-full mx-auto prose dark:prose-invert md:w-3/4 lg:w-1/2 prose-img:rounded-lg prose-a:text-blue-600 prose-img:drop-shadow-xl">
           <MDXRenderer>{data.mdx.body}</MDXRenderer>
         </div>
       </article>
