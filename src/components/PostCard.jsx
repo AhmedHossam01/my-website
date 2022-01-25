@@ -1,6 +1,7 @@
 import * as React from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
+import calcTimeAgo from "../utils/calcTimeAgo";
 
 const PostCard = ({ post }) => {
   return (
@@ -14,7 +15,9 @@ const PostCard = ({ post }) => {
       </Link>
 
       <div>
-        <p className="font-light text-sm dark:text-slate-100">10 days ago</p>
+        <p className="font-light text-sm dark:text-slate-100">
+          {calcTimeAgo(new Date(post.frontmatter.date))}
+        </p>
         <h2 className="text-3xl dark:text-slate-100">
           <Link to={`blog/${post.slug}`}>{post.frontmatter.title}</Link>
         </h2>
