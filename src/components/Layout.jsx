@@ -19,12 +19,12 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     <div className={isDark && "dark"}>
-      <div className="bg-white dark:bg-slate-900 min-h-screen dark:text-slate-100">
+      <div className="bg-white dark:bg-slate-900 dark:text-slate-100">
         <title>{pageTitle}</title>
 
         <Navbar setIsDark={setIsDark} isDark={isDark} />
 
-        <main>{children}</main>
+        <main className="min-h-screen">{children}</main>
 
         <Footer />
       </div>
