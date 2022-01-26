@@ -19,7 +19,7 @@ const Info = () => {
         <ul className="mt-4 flex gap-4 items-center">
           <li>
             <a
-              href="https://www.twitter.com"
+              href="https://www.twitter.com/devahmedhossam"
               target="_blank"
               rel="noreferrer"
               className="flex gap-2 text-white bg-blue-600 hover:bg-blue-800 transition px-2 py-1 rounded-md"
@@ -36,7 +36,11 @@ const Info = () => {
           </li>
 
           <li>
-            <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/ahmedhossam01/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 class="w-6 h-6 text-blue-500 fill-current hover:text-blue-700 transition-all"
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +52,11 @@ const Info = () => {
           </li>
 
           <li>
-            <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/AhmedHossam01"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 class="w-6 h-6 text-slate-300 fill-current hover:text-white transition-all"
                 xmlns="http://www.w3.org/2000/svg"
