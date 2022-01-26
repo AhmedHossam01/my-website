@@ -1,4 +1,5 @@
 import * as React from "react";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const Layout = ({ pageTitle, children }) => {
@@ -24,6 +25,8 @@ const Layout = ({ pageTitle, children }) => {
         <Navbar setIsDark={setIsDark} isDark={isDark} />
 
         <main>{children}</main>
+
+        <Footer />
       </div>
     </div>
   );

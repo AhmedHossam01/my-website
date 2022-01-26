@@ -24,7 +24,7 @@ const Info = () => {
               rel="noreferrer"
               className="flex gap-2 text-white bg-blue-600 hover:bg-blue-800 transition px-2 py-1 rounded-md"
             >
-              Follow Me on Twitter
+              Follow me on Twitter
               <svg
                 class="w-6 h-6 text-blue-100 fill-current transition-all"
                 xmlns="http://www.w3.org/2000/svg"

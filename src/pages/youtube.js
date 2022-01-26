@@ -6,7 +6,6 @@ import Layout from "../components/Layout";
 
 const Youtube = ({ data }) => {
   const channels = data.allChannelsJson.nodes;
-  console.log(channels);
 
   return (
     <Layout pageTitle="My Youtube Subscriptions">

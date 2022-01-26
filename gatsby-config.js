@@ -5,6 +5,18 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Ahmed Hossam",
+        short_name: "ahmedhossam01",
+        start_url: "/",
+        background_color: "#0F172A",
+        theme_color: "#2563EB",
+        display: "standalone",
+        icon: "src/images/logo.png",
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         gatsbyRemarkPlugins: [
