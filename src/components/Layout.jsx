@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 const Layout = ({ pageTitle, children }) => {
   const [isDark, setIsDark] = React.useState(false);
 
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     if (
       localStorage.theme === "dark" ||
       (!("theme" in localStorage) &&
