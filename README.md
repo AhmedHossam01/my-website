@@ -2,7 +2,7 @@
 
 > Kind of a blogofolio..
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.PNG)
 
 ## Built With
 
