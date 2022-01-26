@@ -1,12 +1,38 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# My Personal Website
 
+> Kind of a blogofolio..
+
+![screenshot](./screenshot.png)
+
+## Built With
+
+- React
+- Gatsby
+- TailwindCSS
+
+## Live Demo
+[https://site.site.site](https://site.site.site)
+
+## Authors
+
+👤 **Ahmed Hossam**
+
+- GitHub: [@ahmedhossam01](https://github.com/ahmedhossam01)
+- LinkedIn: [Ahmed Hossam](https://linkedin.com/in/ahmedhossam01)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Tailblocks Website - Used TailwindCSS snippets from there.
+
+## Script to scrape YouTube subscriptions
 ```javascript
 const data = Array.from(document.querySelectorAll("#channel")).map(
   (channel) => {
@@ -23,22 +49,11 @@ console.log(JSON.stringify(data));
 ```
 
 ## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
 2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into project's folder and run
 
     ```shell
-    cd my-gatsby-site/
     npm run develop
     ```
 
@@ -61,9 +76,3 @@ console.log(JSON.stringify(data));
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
