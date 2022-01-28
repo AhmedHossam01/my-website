@@ -6,18 +6,6 @@
     "featured": false
   },
   {
-    "imageUrl": "https://yt3.ggpht.com/0qPFGFPtxvyqP7Bl4VvvvIKCIfOdd2tKaSVOdR0_rL1J2r966sCGjEAPfeffqak-NkrLo6-ZgOo=s176-c-k-c0x00ffffff-no-rj-mo",
-    "channelName": "kimz codes",
-    "link": "https://www.youtube.com/channel/UC-MNF_TXywelItd7M8d-uHA",
-    "featured": false
-  },
-  {
-    "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLRMgrLJTOMD7aLuNSZorYm2mWH9Zu2pkz5L1zL9=s176-c-k-c0x00ffffff-no-rj-mo",
-    "channelName": "تخاريف مبرمج",
-    "link": "https://www.youtube.com/channel/UC24ELGatjbtDGivcd1pyeoA",
-    "featured": false
-  },
-  {
     "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLSxHOOxxa9Af8Bfb2XMop3lm4tor9bViWiC-d5aaw=s176-c-k-c0x00ffffff-no-rj-mo",
     "channelName": "Traversy Media",
     "link": "https://www.youtube.com/user/TechGuyWeb",
@@ -162,6 +150,18 @@
     "featured": false
   },
   {
+    "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLTbPm3ULa_OZRgTmLOOKhHF4T3OI4tqQ012GwRzWw=s176-c-k-c0x00ffffff-no-rj-mo",
+    "channelName": "Google Chrome Developers",
+    "link": "https://www.youtube.com/user/ChromeDevelopers",
+    "featured": false
+  },
+  {
+    "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLSYy8NkhaejJ5UmxVV9Jy49V2tCUZ3wHRkvjic4PQ=s176-c-k-c0x00ffffff-no-rj-mo",
+    "channelName": "Anthony Sistilli",
+    "link": "https://www.youtube.com/channel/UCoYzQqZNCRqqAomJwJ6yEdg",
+    "featured": false
+  },
+  {
     "imageUrl": "https://yt3.ggpht.com/FjeN785fVWx0Pr6xCbwPhhq8hHj_gocc3FygDXYDEQgp2gE_FQzRNsFHFAjQ3oE-VJaeGR1a=s176-c-k-c0x00ffffff-no-rj-mo",
     "channelName": "Sonny Sangha",
     "link": "https://www.youtube.com/user/ssangha32",
@@ -201,6 +201,18 @@
     "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLRpAwi6VR7icLNPBm6erPn23H9r5oBpEqN3qiemXA=s176-c-k-c0x00ffffff-no-rj-mo",
     "channelName": "LevelUpTuts",
     "link": "https://www.youtube.com/user/LevelUpTuts",
+    "featured": false
+  },
+  {
+    "imageUrl": "https://yt3.ggpht.com/0qPFGFPtxvyqP7Bl4VvvvIKCIfOdd2tKaSVOdR0_rL1J2r966sCGjEAPfeffqak-NkrLo6-ZgOo=s176-c-k-c0x00ffffff-no-rj-mo",
+    "channelName": "kimz codes",
+    "link": "https://www.youtube.com/channel/UC-MNF_TXywelItd7M8d-uHA",
+    "featured": false
+  },
+  {
+    "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLRMgrLJTOMD7aLuNSZorYm2mWH9Zu2pkz5L1zL9=s176-c-k-c0x00ffffff-no-rj-mo",
+    "channelName": "تخاريف مبرمج",
+    "link": "https://www.youtube.com/channel/UC24ELGatjbtDGivcd1pyeoA",
     "featured": false
   },
   {
