@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
@@ -20,7 +21,9 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={isDark && "dark"}>
       <div className="bg-white dark:bg-slate-900 dark:text-slate-100">
-        <title>{pageTitle}</title>
+        <Helmet>
+          <title>{pageTitle}</title>
+        </Helmet>
 
         <Navbar setIsDark={setIsDark} isDark={isDark} />
 
