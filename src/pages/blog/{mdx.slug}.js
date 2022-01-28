@@ -23,7 +23,7 @@ const BlogPost = ({ data }) => {
           name="twitter:image"
           content={
             "https://ahmedhossam.me" +
-            data.frontmatter.hero_image.childImageSharp.fluid.src
+            data.mdx.frontmatter.hero_image.childImageSharp.fluid.src
           }
         />
       </Helmet>
