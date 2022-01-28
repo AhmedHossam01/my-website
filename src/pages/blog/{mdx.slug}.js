@@ -3,12 +3,31 @@ import Layout from "../../components/Layout";
 import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { Helmet } from "react-helmet";
 
 const BlogPost = ({ data }) => {
   const heroImage = getImage(data.mdx.frontmatter.hero_image);
 
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
+      <Helmet>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@nytimes" />
+        <meta name="twitter:creator" content="@devahmedhossam" />
+        <meta name="twitter:title" content={data.mdx.frontmatter.title} />
+        <meta
+          name="twitter:description"
+          content={data.mdx.frontmatter.excrept}
+        />
+        <meta
+          name="twitter:image"
+          content={
+            "https://ahmedhossam.me" +
+            data.frontmatter.hero_image.childImageSharp.fluid.src
+          }
+        />
+      </Helmet>
+
       <article
         className="px-4 py-20 mx-auto max-w-7xl"
         itemScope
@@ -52,6 +71,9 @@ export const query = graphql`
         hero_image {
           childImageSharp {
             gatsbyImageData(width: 1200)
+            fluid {
+              src
+            }
           }
         }
       }

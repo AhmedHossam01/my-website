@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import calcTimeAgo from "../utils/calcTimeAgo";
 
 const PostCard = ({ post }) => {
+  console.log(getImage(post.frontmatter.hero_image));
   return (
     <div className="flex flex-col gap-4 group">
       <Link to={`blog/${post.slug}`}>

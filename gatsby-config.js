@@ -4,6 +4,7 @@ module.exports = {
     title: "Ahmed Hossam's Website",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
