@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-12 container py-16">
+      <div className="grid md:grid-cols-2 gap-12 container py-16">
         {data.allMdx.nodes.map((node) => (
           <PostCard post={node} />
         ))}
