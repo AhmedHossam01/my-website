@@ -11,20 +11,15 @@ const BlogPost = ({ data }) => {
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
       <Helmet>
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@nytimes" />
-        <meta name="twitter:creator" content="@devahmedhossam" />
-        <meta name="twitter:title" content={data.mdx.frontmatter.title} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={data.mdx.frontmatter.title} />
         <meta
-          name="twitter:description"
+          property="og:description"
           content={data.mdx.frontmatter.excrept}
         />
         <meta
-          name="twitter:image"
-          content={
-            "https://ahmedhossam.me" +
-            data.mdx.frontmatter.hero_image.childImageSharp.fluid.src
-          }
+          property="og:image"
+          content={data.mdx.frontmatter.hero_image.absolutePath}
         />
       </Helmet>
 
@@ -67,6 +62,7 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM D, YYYY")
+        excrept
         hero_image_alt
         hero_image {
           childImageSharp {
@@ -75,6 +71,7 @@ export const query = graphql`
               src
             }
           }
+          absolutePath
         }
       }
       body
