@@ -4,7 +4,7 @@ import * as React from "react";
 const Channel = ({ channel }) => {
   return (
     <div className="dark:bg-slate-900 bg-white text-center w-full flex flex-col gap-4 items-center p-4">
-      <a href={channel.link} target="_blank">
+      <a href={channel.link} target="_blank" rel="noreferrer">
         <GatsbyImage
           image={getImage(channel.localImage)}
           alt={channel.channelName}
@@ -16,6 +16,7 @@ const Channel = ({ channel }) => {
         href={channel.link}
         target="_blank"
         className="flex gap-1 flex-col items-center"
+        rel="noreferrer"
       >
         <h2>{channel.channelName}</h2>
 
