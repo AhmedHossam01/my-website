@@ -21,6 +21,7 @@ const BlogPost = ({ data }) => {
           property="og:image"
           content={data.mdx.frontmatter.hero_image.absolutePath}
         />
+        <meta name="description" content={data.mdx.frontmatter.excrept} />
       </Helmet>
 
       <article

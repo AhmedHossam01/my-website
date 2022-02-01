@@ -1,5 +1,6 @@
 import { graphql } from "gatsby";
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import Channel from "../components/Channel";
 import Layout from "../components/Layout";
 
@@ -8,6 +9,13 @@ const Youtube = ({ data }) => {
 
   return (
     <Layout pageTitle="My Youtube Subscriptions">
+      <Helmet>
+        <meta
+          name="description"
+          content="Ahmed hossam's recommended dev youtube channels"
+        />
+      </Helmet>
+
       <div className="container py-12">
         <h1 className="font-bold text-3xl md:text-5xl mb-8">
           My Youtube Subscriptions
