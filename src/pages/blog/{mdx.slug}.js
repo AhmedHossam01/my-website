@@ -11,6 +11,22 @@ const BlogPost = ({ data }) => {
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
       <Helmet>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="https://ahmedhossam.me" />
+        <meta name="twitter:creator" content="@devahmedhossam" />
+        <meta name="twitter:title" content={data.mdx.frontmatter.title} />
+        <meta
+          name="twitter:description"
+          content={data.mdx.frontmatter.excrept}
+        />
+        <meta
+          name="twitter:image"
+          content={
+            "https://ahmedhossam.me" +
+            data.frontmatter.hero_image.childImageSharp.fluid.src
+          }
+        />
+
         <meta property="og:type" content="article" />
         <meta property="og:title" content={data.mdx.frontmatter.title} />
         <meta
@@ -20,8 +36,8 @@ const BlogPost = ({ data }) => {
         <meta
           property="og:image"
           content={
-            "https://www.ahmedhossam.me/" +
-            data.mdx.frontmatter.hero_image.childImageSharp.fluid.src
+            "https://ahmedhossam.me" +
+            data.frontmatter.hero_image.childImageSharp.fluid.src
           }
         />
         <meta name="description" content={data.mdx.frontmatter.excrept} />
