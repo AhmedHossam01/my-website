@@ -3,10 +3,18 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PostCard from "../components/PostCard";
 import Info from "../components/Info";
+import { Helmet } from "react-helmet";
 
 const IndexPage = ({ data }) => {
   return (
     <Layout pageTitle="Home Page - Ahmed Hossam">
+      <Helmet>
+        <meta
+          name="description"
+          content="Developer Ahmed Hossam's blog and portfolio"
+        />
+      </Helmet>
+
       <div className="bg-sky-50 lg:py-28 pt-16 dark:bg-slate-900">
         <div className="container">
           <Info />

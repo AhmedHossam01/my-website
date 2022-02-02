@@ -1,6 +1,6 @@
 import { graphql } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import Channel from "../components/Channel";
 import Layout from "../components/Layout";
 
@@ -9,6 +9,13 @@ const Youtube = ({ data }) => {
 
   return (
     <Layout pageTitle="My Youtube Subscriptions">
+      <Helmet>
+        <meta
+          name="description"
+          content="Ahmed hossam's recommended dev youtube channels"
+        />
+      </Helmet>
+
       <div className="container py-12">
         <h1 className="font-bold text-3xl md:text-5xl mb-8">
           My Youtube Subscriptions
@@ -17,6 +24,7 @@ const Youtube = ({ data }) => {
         <a
           href="https://www.youtube.com/channel/UCjRVMR_XHu0vKK5rXzdS-UQ/channels"
           target="_blank"
+          rel="noreferrer"
           className="text-sky-700 bg-sky-200 hover:bg-sky-100 transition rounded-md px-2 py-1 flex w-fit gap-1"
         >
           View on YouTube

@@ -12,7 +12,7 @@ const calcTimeAgo = (date) => {
   const interval = intervals.find((el) => el.seconds < secondsAgo);
   const count = Math.floor(secondsAgo / interval.seconds);
 
-  return `${count} ${interval.label}${count !== 1 && "s"} ago`;
+  return `${count} ${interval.label}${count !== 1 ? "s" : ""} ago`;
 };
 
 export default calcTimeAgo;
