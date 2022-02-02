@@ -21,7 +21,7 @@ const BlogPost = ({ data }) => {
           property="og:image"
           content={
             "https://www.ahmedhossam.me/" +
-            data.mdx.frontmatter.hero_image.fluid.src
+            data.mdx.frontmatter.hero_image.childImageSharp.fluid.src
           }
         />
         <meta name="description" content={data.mdx.frontmatter.excrept} />
