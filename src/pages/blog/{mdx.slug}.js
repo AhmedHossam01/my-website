@@ -19,7 +19,10 @@ const BlogPost = ({ data }) => {
         />
         <meta
           property="og:image"
-          content={data.mdx.frontmatter.hero_image.absolutePath}
+          content={
+            "https://www.ahmedhossam.me/" +
+            data.mdx.frontmatter.hero_image.fluid.src
+          }
         />
         <meta name="description" content={data.mdx.frontmatter.excrept} />
       </Helmet>
@@ -72,7 +75,6 @@ export const query = graphql`
               src
             }
           }
-          absolutePath
         }
       }
       body
