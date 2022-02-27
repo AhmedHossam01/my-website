@@ -10,10 +10,10 @@ const Info = () => {
           Hi, I'm Ahmed Hossam
         </h1>
         <p className="mt-8 text-slate-700 dark:text-slate-300">
-          Welcome to my humble blog. Here I mostly blog about my projects, stuff
-          I discover, books I read, or technical problems/issues I've solved.
-          This was intented to be a portfolio, but I'm too excited to start
-          blogging so I made the blog until the portfolio is complete.
+          Welcome to my humble blogofolio. Here I mostly blog about my projects,
+          stuff I discover, books I read, or technical problems/issues I've
+          solved. This was intented to be a portfolio, but I'm too excited to
+          start blogging so I made the blog until the portfolio is complete.
         </p>
         <ul className="mt-4 flex gap-4 items-center">
           <li>

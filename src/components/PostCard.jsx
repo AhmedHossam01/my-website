@@ -7,7 +7,7 @@ const PostCard = ({ post }) => {
   console.log(getImage(post.frontmatter.hero_image));
   return (
     <div className="flex flex-col gap-4 group">
-      <Link to={`blog/${post.slug}`}>
+      <Link to={`/blog/${post.slug}`}>
         <GatsbyImage
           className="rounded-xl shadow-md w-full h-36 lg:h-28"
           image={getImage(post.frontmatter.hero_image)}
@@ -22,9 +22,12 @@ const PostCard = ({ post }) => {
         <h2 className="text-3xl dark:text-slate-100">
           <Link to={`blog/${post.slug}`}>{post.frontmatter.title}</Link>
         </h2>
-        <p className="text-gray-600 mt-2 dark:text-slate-400">
-          {post.frontmatter.excrept}
-        </p>
+
+        {post.frontmatter.excrept && (
+          <p className="text-gray-600 mt-2 dark:text-slate-400">
+            {post.frontmatter.excrept}
+          </p>
+        )}
       </div>
 
       <Link
