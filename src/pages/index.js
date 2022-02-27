@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => {
         />
       </Helmet>
 
-      <div className="bg-sky-50 lg:py-28 pt-16 dark:bg-slate-900">
+      <div className="bg-sky-50 lg:pt-28 lg:pb-16 pt-16 dark:bg-slate-900">
         <div className="container">
           <Info />
         </div>

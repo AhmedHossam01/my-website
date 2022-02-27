@@ -15,7 +15,6 @@ const Info = () => {
           This was intented to be a portfolio, but I'm too excited to start
           blogging so I made the blog until the portfolio is complete.
         </p>
-
         <ul className="mt-4 flex gap-4 items-center">
           <li>
             <a
@@ -70,6 +69,8 @@ const Info = () => {
             </a>
           </li>
         </ul>
+
+        <div className="mt-6">📧 ahmedhossam01.official@gmail.com</div>
       </div>
     </div>
   );
