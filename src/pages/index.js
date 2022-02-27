@@ -21,10 +21,15 @@ const IndexPage = ({ data }) => {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-12 container py-16">
-        {data.allMdx.nodes.map((node) => (
-          <PostCard post={node} />
-        ))}
+      <div className="py-16 container">
+        <div className="mb-6 underline decoration-sky-500 decoration-wavy text-2xl underline-offset-2">
+          Latest Articles
+        </div>
+        <div className="grid md:grid-cols-2 gap-12">
+          {data.allMdx.nodes.map((node) => (
+            <PostCard post={node} />
+          ))}
+        </div>
       </div>
     </Layout>
   );

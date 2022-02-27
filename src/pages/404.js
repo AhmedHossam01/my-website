@@ -8,7 +8,7 @@ const NotFoundPage = () => {
       <div className="h-screen flex items-center justify-center flex-col">
         <h1 className="text-7xl font-bold">Page Not Found! 😔</h1>
         <Link
-          href="https://www.twitter.com"
+          href="/"
           target="_blank"
           rel="noreferrer"
           className="flex gap-1 mt-12 text-white bg-slate-600 transition px-2 py-1 rounded-md"

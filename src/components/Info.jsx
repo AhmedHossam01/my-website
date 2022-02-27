@@ -43,7 +43,7 @@ const Info = () => {
               rel="noreferrer"
             >
               <svg
-                class="w-6 h-6 text-slate-300 fill-current hover:text-white transition-all"
+                class="w-6 h-6 text-slate-300 fill-current dark:hover:text-white hover:text-slate-700 transition-all"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
@@ -59,7 +59,7 @@ const Info = () => {
               rel="noreferrer"
             >
               <svg
-                class="w-6 h-6 text-slate-300 fill-current hover:text-white transition-all"
+                class="w-6 h-6 text-slate-300 fill-current dark:hover:text-white hover:text-slate-700 transition-all"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 role="img"

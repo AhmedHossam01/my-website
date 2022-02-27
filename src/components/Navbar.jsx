@@ -41,6 +41,13 @@ const Navbar = ({ setIsDark, isDark }) => {
           >
             Recommended Youtube Channels
           </a>
+
+          <Link
+            className="mr-5 hover:text-gray-900 dark:hover:text-white"
+            href="/blog"
+          >
+            My Blog
+          </Link>
         </nav>
         <a
           href="https://www.linkedin.com/in/ahmedhossam01/"
