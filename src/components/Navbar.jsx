@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
+import NavbarLink from "./NavbarLink";
 
 const Navbar = ({ setIsDark, isDark }) => {
   const setDark = () => {
@@ -29,26 +30,9 @@ const Navbar = ({ setIsDark, isDark }) => {
         </Link>
 
         <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-          <Link
-            className="mr-5 text-black hover:text-gray-900 dark:text-white"
-            to="/"
-          >
-            Home
-          </Link>
-
-          <a
-            className="mr-5 hover:text-gray-900 dark:hover:text-white flex gap-2 group"
-            href="/youtube"
-          >
-            Recommended Youtube Channels
-          </a>
-
-          <Link
-            className="mr-5 hover:text-gray-900 dark:hover:text-white"
-            to="/blog"
-          >
-            My Blog
-          </Link>
+          <NavbarLink to="/">Home</NavbarLink>
+          <NavbarLink to="/youtube">Recommended Youtube Channels</NavbarLink>
+          <NavbarLink to="/blog">My Blog</NavbarLink>
         </nav>
         <a
           href="https://www.linkedin.com/in/ahmedhossam01/"
