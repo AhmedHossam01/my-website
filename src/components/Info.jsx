@@ -70,7 +70,7 @@ const Info = () => {
           </li>
         </ul>
 
-        <div className="mt-6">📧 ahmedhossam01.official@gmail.com</div>
+        <div className="mt-6 truncate">📧 ahmedhossam01.official@gmail.com</div>
       </div>
     </div>
   );
