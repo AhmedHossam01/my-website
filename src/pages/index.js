@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import PostCard from "../components/PostCard";
 import Info from "../components/Info";
 import { Helmet } from "react-helmet";
+import PortfolioCard from "../components/PortfolioCard";
 
 const IndexPage = ({ data }) => {
   return (
@@ -20,6 +21,8 @@ const IndexPage = ({ data }) => {
           <Info />
         </div>
       </div>
+
+      <PortfolioCard />
 
       <div className="py-16 container">
         <div className="mb-6 underline decoration-sky-500 decoration-wavy text-2xl underline-offset-2">
