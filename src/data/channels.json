@@ -1,11 +1,5 @@
 [
   {
-    "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLScd3qE7Blu2CtRbzkfBzbEwE3_bIpO-dRaQjTPTg=s176-c-k-c0x00ffffff-no-rj-mo",
-    "channelName": "Ben Awad",
-    "link": "https://www.youtube.com/user/99baddawg",
-    "featured": false
-  },
-  {
     "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLSxHOOxxa9Af8Bfb2XMop3lm4tor9bViWiC-d5aaw=s176-c-k-c0x00ffffff-no-rj-mo",
     "channelName": "Traversy Media",
     "link": "https://www.youtube.com/user/TechGuyWeb",
@@ -27,12 +21,6 @@
     "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLQXx-JXf1NsSUtVHcYhx4B4MaIYE0m7I_H0GHmu-w=s176-c-k-c0x00ffffff-no-rj-mo",
     "channelName": "Tech With Tim",
     "link": "https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg",
-    "featured": false
-  },
-  {
-    "imageUrl": "https://yt3.ggpht.com/w13Ebn1ArrEVKpkJbcNWNd5FVxvBXdMjh-P6SB1j_s5dy5tIKKpKL8W31qj7wdIGeVyAow=s176-c-k-c0x00ffffff-no-rj-mo",
-    "channelName": "ILW Yennefer",
-    "link": "https://www.youtube.com/channel/UC5XDHSUoBC11Kj-iIpx7QkA",
     "featured": false
   },
   {
